@@ -1,0 +1,6 @@
+jdk:
+  - openjdk11
+before_install:
+  - sdk-manager --install "build-tools;33.0.2" "platforms;android-33"
+install:
+  - ./gradlew :library:publishToMavenLocal

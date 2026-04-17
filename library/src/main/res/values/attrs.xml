@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexibleTabLayout">
+        <!-- Tab Type -->
+        <attr name="tabType" format="enum">
+            <enum name="textOnly" value="0"/>
+            <enum name="iconOnly" value="1"/>
+            <enum name="imageOnly" value="2"/>
+            <enum name="iconText" value="3"/>
+            <enum name="imageText" value="4"/>
+            <enum name="indicatorOnly" value="5"/>
+            <enum name="roundedPill" value="6"/>
+            <enum name="underline" value="7"/>
+            <enum name="material" value="8"/>
+            <enum name="instagram" value="9"/>
+            <enum name="tiktok" value="10"/>
+        </attr>
+        
+        <!-- Tab Mode -->
+        <attr name="tabMode" format="enum">
+            <enum name="fixed" value="0"/>
+            <enum name="scrollable" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+        
+        <!-- Tab Gravity -->
+        <attr name="tabGravity" format="enum">
+            <enum name="start" value="8388611"/>
+            <enum name="center" value="17"/>
+            <enum name="end" value="8388613"/>
+            <enum name="fill" value="119"/>
+        </attr>
+        
+        <!-- Colors -->
+        <attr name="tabSelectedTextColor" format="color"/>
+        <attr name="tabUnselectedTextColor" format="color"/>
+        <attr name="tabSelectedIconColor" format="color"/>
+        <attr name="tabUnselectedIconColor" format="color"/>
+        <attr name="tabSelectedBackgroundColor" format="color"/>
+        <attr name="tabUnselectedBackgroundColor" format="color"/>
+        <attr name="tabBackgroundColor" format="color"/>
+        <attr name="tabRippleColor" format="color"/>
+        <attr name="tabBorderColor" format="color"/>
+        <attr name="tabDividerColor" format="color"/>
+        
+        <!-- Indicator -->
+        <attr name="tabIndicatorColor" format="color"/>
+        <attr name="tabIndicatorHeight" format="dimension"/>
+        <attr name="tabIndicatorWidth" format="dimension"/>
+        <attr name="tabIndicatorRadius" format="dimension"/>
+        <attr name="tabIndicatorStyle" format="enum">
+            <enum name="underline" value="0"/>
+            <enum name="pill" value="1"/>
+            <enum name="dot" value="2"/>
+            <enum name="none" value="3"/>
+            <enum name="material" value="4"/>
+            <enum name="capsule" value="5"/>
+        </attr>
+        
+        <!-- Tab Appearance -->
+        <attr name="tabTextSize" format="dimension"/>
+        <attr name="tabIconSize" format="dimension"/>
+        <attr name="tabCornerRadius" format="dimension"/>
+        <attr name="tabPadding" format="dimension"/>
+        <attr name="tabSpacing" format="dimension"/>
+        <attr name="tabElevation" format="dimension"/>
+        
+        <!-- Animation -->
+        <attr name="tabAnimationEnabled" format="boolean"/>
+        <attr name="tabAnimationDuration" format="integer"/>
+        
+        <!-- Content -->
+        <attr name="tabTitles" format="reference"/>
+        <attr name="tabIcons" format="reference"/>
+        <attr name="tabImages" format="reference"/>
+        
+        <!-- Badge -->
+        <attr name="tabBadgeBackgroundColor" format="color"/>
+        <attr name="tabBadgeTextColor" format="color"/>
+    </declare-styleable>
+</resources>

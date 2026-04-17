@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flexibletab.sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FlexibleTab Demo"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".InstagramStyleActivity" />
+        <activity android:name=".GoogleStyleActivity" />
+        <activity android:name=".TikTokStyleActivity" />
+        <activity android:name=".PillStyleActivity" />
+        <activity android:name=".MaterialStyleActivity" />
+        <activity android:name=".ThemeSwitchingActivity" />
+        <activity android:name=".AllTabTypesActivity" />
+        
+    </application>
+
+</manifest>
