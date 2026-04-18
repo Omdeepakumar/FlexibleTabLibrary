@@ -291,7 +291,7 @@ public class FlexibleTabLayout extends FrameLayout {
         container.addView(textView, params);
         
         // Store text view reference for updates
-        tabView.setTag(textView);
+        container.setTag(textView);
     }
     
     private void createIconTab(FrameLayout container, TabItem tab, boolean showText) {
